@@ -78,7 +78,7 @@
     font-style: normal;
     line-height: 1.24;
     letter-spacing: normal;
-    text-align: left;
+    text-align: justify;
     color: #fff;
     margin-bottom: 3.125vw
 }
@@ -244,7 +244,7 @@
     font-style: normal;
     line-height: 1.38;
     letter-spacing: normal;
-    text-align: left;
+    text-align: justify;
     color: #fff;
     margin-bottom: 1.5277777778vw
 }
@@ -597,7 +597,7 @@
     font-style: normal;
     line-height: 1.57;
     letter-spacing: normal;
-    text-align: left;
+    text-align: justify;
     color: #373f4d
 }
 
@@ -972,7 +972,7 @@
     box-sizing: border-box;
     text-decoration: none;
     display: block;
-    transition: .2s ease-in-out transform
+    transition: .2s ease-in-out transform;
 }
 
 @media screen and (max-width: 960px) {
@@ -980,7 +980,7 @@
         margin:34.6666666667vw 0 0;
         border-radius: 5.3333333333vw;
         padding: 9.0666666667vw 5.3333333333vw 7.4666666667vw;
-        overflow: hidden
+        overflow: hidden;
     }
 }
 
@@ -1039,7 +1039,8 @@
     flex-direction: column;
     justify-content: space-between;
     color: #fff;
-    max-width: 43.75vw
+    max-width: 43.75vw;
+    text-align: justify;
 }
 
 @media screen and (max-width: 960px) {
@@ -1059,13 +1060,15 @@
 }
 
 .home-team .plans-wrap .text-btn .text h5 {
-    line-height: 1.3
+    line-height: 1.3;
+    text-align: justify;
 }
 
 @media screen and (max-width: 960px) {
     .home-team .plans-wrap .text-btn .text h5 {
         line-height:1.33;
-        letter-spacing: .2666666667vw
+        letter-spacing: .2666666667vw;
+        text-align: justify;
     }
 }
 
@@ -1079,7 +1082,8 @@
 
 .home-community {
     padding: 6.5277777778vw 20.8333333333vw 3.125vw;
-    overflow: hidden
+    overflow: hidden;
+    text-align: justify;
 }
 
 @media screen and (max-width: 960px) {
@@ -1140,7 +1144,8 @@
 
 .home-community .home-community-text-two-columns {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    text-align: justify;
 }
 
 @media screen and (max-width: 960px) {
@@ -1287,5 +1292,3 @@
     width: 100% !important;
     height: auto !important
 }
-
-/*# sourceMappingURL=home.min.css.map */
